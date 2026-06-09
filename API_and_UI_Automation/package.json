@@ -1,0 +1,23 @@
+{
+  "name": "desafio-tecnico-nttdata",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automação de testes API e Frontend com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\"",
+    "ui": "cypress run --spec \"cypress/e2e/frontend/**/*.cy.js\""
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "qa"
+  ],
+  "author": "Emilly Magalhães",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}
